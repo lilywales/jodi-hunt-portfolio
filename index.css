@@ -16,6 +16,7 @@
 
 #navigation {
   display: inline;
+  height: 10vh;
 }
 
 .logo-image {
@@ -24,9 +25,6 @@
   /*display: inline;*/
 }
 
-.logo {
-  left:5%;
-}
 
 .menu {
   float: right;
@@ -34,7 +32,7 @@
   display: inline;
   position: absolute;
   top: 2%;
-  left: 79%;
+  left: 83%;
   margin-right: 0;
 
 }
@@ -64,4 +62,27 @@
 .heading {
   font-size: 1.5rem;
   top: 15%;
+}
+
+.logo {
+  left: 5%;
+  padding-left: 1%;
+  padding-top: 0.5%;
+}
+
+.foot {
+  background-color: black;
+  height: 75px;
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  padding-top: 1%;
+  float: right;
+  text-decoration: none;
 }
