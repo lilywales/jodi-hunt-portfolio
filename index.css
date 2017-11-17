@@ -1,0 +1,67 @@
+.thumbnail-container {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0;
+}
+
+.thumbnail {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0;
+}
+
+.col-md-4 {
+  padding: 0;
+}
+
+#navigation {
+  display: inline;
+}
+
+.logo-image {
+  max-width: 15%;
+  left: 200px;
+  /*display: inline;*/
+}
+
+.logo {
+  left:5%;
+}
+
+.menu {
+  float: right;
+  clear: both;
+  display: inline;
+  position: absolute;
+  top: 2%;
+  left: 79%;
+  margin-right: 0;
+
+}
+
+.menu-list {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*overflow: hidden;*/
+}
+
+.menu-list li {
+  display: inline-block;
+  top: 20px;
+  padding: 8px;
+}
+
+.menu-list li a {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.heading {
+  font-size: 1.5rem;
+  top: 15%;
+}

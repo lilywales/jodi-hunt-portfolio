@@ -1,1 +1,1 @@
-A portfolio website produced for a graphic designer, Jodi Hunt.
+A portfolio website produced for Bristol based graphic designer Jodi Hunt.
