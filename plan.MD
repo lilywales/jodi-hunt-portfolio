@@ -4,7 +4,7 @@ Front End:
 
 **Home Page**
 
-[ ] import fonts
+[x] import fonts
 
 [ ] create nav bar
 
@@ -15,9 +15,9 @@ Front End:
     [ ] contact link
 
 
-[ ] Upload image squares
+[x] Upload image squares
 
-[ ] Grid them so they sit exactly next to each other, 3 when screen largest, then down to 2 and 1 when on mobile
+[x] Grid them so they sit exactly next to each other, 3 when screen largest, then down to 2 and 1 when on mobile
 
 [ ] Add links to squares
 
