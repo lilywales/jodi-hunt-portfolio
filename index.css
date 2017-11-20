@@ -37,6 +37,7 @@
    }
 #email {
   text-decoration: none;
+  padding-right: 2%;
 }
 
 #email:hover {
