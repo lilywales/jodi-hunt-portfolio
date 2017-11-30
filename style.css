@@ -4,13 +4,35 @@
   padding: 0;
 }
 
-
 .thumbnail {
   max-width: 100%;
   max-height: 100%;
   padding: 0;
   opacity: 1;
   transition: .5s ease;
+}
+
+.overlay {
+  display: none;
+}
+
+.thumbnail-container:hover .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.thumbnail-container:hover .overlay p {
+  position:relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 20px;
 }
 
 /*.fade {
@@ -54,6 +76,7 @@
 
 #email:hover {
   color: #f07f0a;
+  text-decoration: none;
 }
 .menu {
   float: right;
@@ -126,7 +149,8 @@ a {
   color: white;
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
-  padding-top: 1.7%;
+  padding-top: 1.6%;
+  padding-right: 1%;
   float: right;
   text-decoration: none;
 
@@ -197,4 +221,26 @@ a {
   font-weight: bold;
 
   float: left;
+}
+
+
+.overlay {
+    display: none;
+}
+.thumbnail:hover .overlay {
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.9);
+    position:absolute;
+    top:0;
+    left:0;
+    display:inline-block;
+    text-align:center;
+}
+.thumbnail:hover .overlay p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color:white;
+  font-size:20px;
 }
