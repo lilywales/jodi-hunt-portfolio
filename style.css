@@ -92,10 +92,6 @@
   margin-right: -0.5rem;
 }
 
-.navbar-nav {
-  padding-left: 71rem;
-}
-
 /*hover colour not working*/
 #menu:hover {
   color: #f07f0a;
