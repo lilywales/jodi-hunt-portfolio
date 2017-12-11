@@ -59,16 +59,7 @@
   left: 200px;
   /*display: inline;*/
 }
-/*
-#fade {
-   opacity: 1;
 
-}
-
-#fade:hover {
-   opacity: 0.6;
-   /*background-color: rgba(60, 60, 61, 0.71)*/
-   }*/
 #email {
   text-decoration: none;
   padding-right: 2%;
@@ -113,6 +104,12 @@
 
 .navbar-brand {
   margin-right: -0.5rem;
+}
+
+.navbar-light .navbar-toggler {
+
+  border-color: rgba(251, 252, 252, 0);
+
 }
 
 /*hover colour not working*/
@@ -244,3 +241,8 @@ a {
   color:white;
   font-size:20px;
 }
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
