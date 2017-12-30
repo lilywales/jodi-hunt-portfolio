@@ -1,244 +1,239 @@
 .thumbnail-container {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 0;
+	max-width: 100%;
+	max-height: 100%;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 .thumbnail {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 0;
-  opacity: 1;
-  transition: .5s ease;
+	max-width: 100%;
+	max-height: 100%;
+	padding: 0;
+	opacity: 1;
+	transition: 0.5s ease;
 }
 
 .overlay {
-  display: none;
+	display: none;
 }
 
 .thumbnail-container:hover .overlay {
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,.4);
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  text-align: center;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	text-align: center;
 }
 
 .thumbnail-container:hover .overlay p {
-  position:relative;
-  top: 50%;
-  transform: translateY(-50%);
-  color: white;
-  font-size: 20px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	font-size: 20px;
 }
 
-
-
 .col-md-4 {
-  padding: 0;
+	padding: 0;
 }
 
 #navigation {
-  display: inline;
-  height: 10vh;
+	display: inline;
+	height: 10vh;
 }
 
 .logo-image {
-  max-width: 15%;
-  left: 200px;
-  /*display: inline;*/
+	max-width: 15%;
+	left: 200px;
+	/*display: inline;*/
 }
-
 
 #email:hover {
-  color: #f07f0a;
-  text-decoration: none;
+	color: #f07f0a;
+	text-decoration: none;
 }
 .menu {
-  float: right;
-  clear: both;
-  display: inline;
-  position: absolute;
-  top: 2%;
-  left: 83%;
-  margin-right: 0;
-
+	float: right;
+	clear: both;
+	display: inline;
+	position: absolute;
+	top: 2%;
+	left: 83%;
+	margin-right: 0;
 }
 
 .menu-list {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 .menu-list li {
-  display: inline-block;
-  top: 20px;
-  padding: 8px;
+	display: inline-block;
+	top: 20px;
+	padding: 8px;
 }
 
 .nav-link {
-  color: black;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-
+	color: black;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .navbar-brand {
-  margin-right: -0.5rem;
+	margin-right: -0.5rem;
 }
 
 .navbar-light .navbar-toggler {
-
-  border-color: rgba(251, 252, 252, 0);
-
+	border-color: rgba(251, 252, 252, 0);
 }
 
 /*hover colour not working*/
 #menu:hover {
-  color: #f07f0a;
+	color: #f07f0a;
 }
 
 .heading {
-  font-size: 1.5rem;
-  top: 15%;
+	font-size: 1.5rem;
+	top: 15%;
 }
 
 .logo {
-  left: 5%;
-  padding-left: 1%;
-  padding-top: 0.5%;
+	left: 5%;
+	padding-left: 1%;
+	padding-top: 0.5%;
 }
 
 /*footer margin still visible*/
 .footer {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .foot {
-  background: black;
-  height:68px;
-  margin: 0;
-  padding: 0;
-
+	background: black;
+	height: 68px;
+	margin: 0;
+	padding: 0;
 }
 
 #email {
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
-  padding-top: 1.6%;
-  padding-right: 1%;
-  float: right;
-  text-decoration: none;
-
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.2rem;
+	padding-top: 1.6%;
+	padding-right: 1%;
+	float: right;
+	text-decoration: none;
 }
 
-
-
-.carousel {
-  height: 50%;
+/* .carousel {
+	height: 50%;
 }
 
 .carousel-cell {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+	counter-increment: gallery-cell;
 }
 
 /* position dots in carousel */
 .flickity-page-dots {
-  bottom: 0px;
+	bottom: 0px;
 }
 /* white circles */
 .flickity-page-dots .dot {
-  width: 12px;
-  height: 12px;
-  opacity: 1;
-  background: transparent;
-  border: 2px solid white;
+	width: 12px;
+	height: 12px;
+	opacity: 1;
+	background: transparent;
+	border: 2px solid white;
 }
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
-  background: white;
+	background: white;
 }
-
-.contactbox {
-  background-color: black;
-  width: 100%;
-  height: 90vh;
+*/ .contactbox {
+	background-color: black;
+	width: 100%;
+	height: 90vh;
 }
 
 .details {
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
-  padding-top: 18%;
-  float: right;
-  padding-right: 3%;
-  text-decoration: none;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5rem;
+	padding-top: 18%;
+	float: right;
+	padding-right: 3%;
+	text-decoration: none;
 }
 
 .email {
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
-  padding-top: 24%;
-  float: right;
-  padding-right: 4%;
-  text-decoration: none;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-size: 2rem;
+	padding-top: 24%;
+	float: right;
+	padding-right: 4%;
+	text-decoration: none;
 }
 
 .pigtitle {
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
-  padding-top: 24%;
-  font-weight: bold;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-size: 2rem;
+	padding-top: 24%;
+	font-weight: bold;
 
-  float: left;
+	float: left;
 }
-
-
 
 .overlay {
-    display: none;
+	display: none;
 }
 .thumbnail:hover .overlay {
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,.9);
-    position:absolute;
-    top:0;
-    left:0;
-    display:inline-block;
-    text-align:center;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	text-align: center;
 }
 .thumbnail:hover .overlay p {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  color:white;
-  font-size:20px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	font-size: 20px;
 }
 
 .container-fluid {
-    width: 100%;
-    padding-right: 0;
-    padding-left: 0;
+	width: 100%;
+	padding-right: 0;
+	padding-left: 0;
 }
 
 .bg-light {
-  /*background-color: white;*/
+	/*background-color: white;*/
+}
 
+.gallery-cell {
+	width: 100%;
+
+	font-size: 24px;
+	background: #eee;
 }
