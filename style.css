@@ -135,41 +135,6 @@
 	text-decoration: none;
 }
 
-/* .carousel {
-	height: 50%;
-}
-
-.carousel-cell {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	border-radius: 5px;
-	counter-increment: gallery-cell;
-}
-
-/* position dots in carousel */
-.flickity-page-dots {
-	bottom: 0px;
-}
-/* white circles */
-.flickity-page-dots .dot {
-	width: 12px;
-	height: 12px;
-	opacity: 1;
-	background: transparent;
-	border: 2px solid white;
-}
-/* fill-in selected dot */
-.flickity-page-dots .dot.is-selected {
-	background: white;
-}
-*/ .contactbox {
-	background-color: black;
-	width: 100%;
-	height: 90vh;
-}
-
 .details {
 	color: white;
 	font-family: "Poppins", sans-serif;
@@ -227,13 +192,38 @@
 	padding-left: 0;
 }
 
-.bg-light {
-	/*background-color: white;*/
-}
-
 .gallery-cell {
 	width: 100%;
 
 	font-size: 24px;
 	background: #eee;
+}
+
+h5 {
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.2rem;
+	/* padding-top: 24%; */
+	font-weight: bold;
+	float: left;
+}
+
+.project-title {
+	left: 20px;
+}
+
+.bg-light {
+	background-color: #ffffff !important;
+}
+
+.project-description {
+	color: black;
+	font-family: "Poppins", sans-serif;
+	font-size: 1rem;
+	padding-top: 1%;
+	padding-bottom: 47%;
+	margin-top: 80px;
+	margin-left: 60px;
+	font-weight: bold;
+	float: left;
 }
