@@ -9,6 +9,26 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <title>Super 11</title>
+  <style>
+    @media only screen and (max-width: 500px) {
+      .super11laptop {
+        display: none
+      }
+      .super11mobile {
+        visibility: visible
+      }
+      #email {
+        font-size: 0.9rem;
+      	padding-top: 5%;
+      	padding-right: 2%;
+      }
+      .navbar-nav .nav-link {
+        padding-right: 0px;
+        float: right;
+        padding-left: 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -32,41 +52,42 @@
     </div>
   </nav>
 
-  <!-- imagery  -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="./public/super11car1.png" alt="First slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Super 11</h5>
-          <p class="project-description">Design and photography to illustrate my Super 11 health foods.</p>
+  <!-- imagery laptop  -->
+  <div class="super11laptop">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./public/super11car1.png" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Super 11</h5>
+            <p class="project-description">Design and photography to illustrate my Super 11 health foods.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/super11car2.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/super11car3.png" alt="3 slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/super11car4.png" alt="4slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/super11car5.png" alt="4slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/super11car6.png" alt="5slide">
         </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./public/super11car2.png" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./public/super11car3.png" alt="3 slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./public/super11car4.png" alt="4slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./public/super11car5.png" alt="4slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./public/super11car6.png" alt="5slide">
-      </div>
     </div>
-  </div>
     <!-- <> -->
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -76,6 +97,72 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+  </div>
+  </div>
+  <!-- imagery mobile  -->
+  <div class="container-fluid super11mobile" style="clear:both">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11web1.png" alt="123 Little Pigs portflio" >
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11webdescription.png" alt="Super 11 portflio">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11web2.png"  alt="Super 11 portflio">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11web3.png" alt="Car portflio" >
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11web4.png" alt="Moodie portflio" >
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11web5.png" alt="car portflio" >
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11web6.png" alt="BOM portflio" >
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11web7.png" alt="BOM portflio" >
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11web8.png" alt="BOM portflio">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11web9.png" alt="BOM portflio" >
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11web10.png" alt="BOM portflio">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/super11web11.png" alt="BOM portflio">
+        </div>
+      </div>
+    </div>
   </div>
   <footer>
     <div class="foot">

@@ -9,6 +9,26 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <title>123 Little Pigs</title>
+  <style>
+    @media only screen and (max-width: 500px) {
+      .123littlepigsmobile {
+        display: none
+      }
+      .123littlepigsmobile {
+        visibility: visible
+      }
+      #email {
+        font-size: 0.9rem;
+        padding-top: 5%;
+        padding-right: 2%;
+      }
+      .navbar-nav .nav-link {
+        padding-right: 0px;
+        float: right;
+        padding-left: 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -31,6 +51,8 @@
       </ul>
     </div>
   </nav>
+  <!-- imagery laptop -->
+  <div class="123littlepigslaptop">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -62,7 +84,39 @@
     <span class="sr-only">Next</span>
   </a>
   </div>
-
+</div>
+<!-- imagery mobile -->
+<div class="123littlepigsmobile">
+  <div class="container-fluid" style="clear:both">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/123littlepigs1.png" alt="toyotachr portflio">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/123littlepigsdescription.png"  alt="toyotachr portflio">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/123littlepigs2.png"  alt="toyotachr portflio">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/123littlepigs3.png"  alt="toyotachr portflio">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail-container">
+          <img class="thumbnail img-responsive" src="./public/123littlepigs4.png"  alt="toyotachr portflio">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   <footer>
     <div class="foot">
       <a id="email" href="mailto:jodihunt@hotmail.co.uk">email: jodihunt@hotmail.co.uk</a>
