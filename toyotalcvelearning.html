@@ -10,7 +10,19 @@
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <title>Toyota LCV Learning</title>
   <style>
-    @media only screen and (max-width: 500px) {
+  /* laptop/desktop media query */
+
+  @media only screen and (min-width: 600px) {
+    .toyotacvelearningmobile {
+      display: none;
+    }
+    .toyotacvelearninglaptop {
+      visibility: visible;
+    }
+  }
+
+  /* mobile media query */
+    @media only screen and (max-width: 599px) {
       .toyotacvelearninglaptop {
         display: none
       }

@@ -10,8 +10,20 @@
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <title>Birmingham Open Media</title>
   <style>
+    /* laptop/desktop media query */
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (min-width: 600px) {
+      .bommobile {
+        display: none;
+      }
+      .bomlaptop {
+        visibility: visible;
+      }
+    }
+
+    /* mobile media query */
+
+    @media only screen and (max-width: 599px) {
       .bomlaptop {
         display: none
       }
@@ -54,61 +66,61 @@
   </nav>
   <!-- imagery laptop -->
   <div class="bomlaptop">
-  <div id="carouselExampleIndicators" class="carousel slide" "bomlaptop" data-ride="carousel" data-interval="5000">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="./public/bomcar1.png" alt="First slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Birmingham Open Media</h5>
-          <p class="project-description">Logo, brand and identity design for Art and Science collaborative space in Birmingham.</p>
+    <div id="carouselExampleIndicators" class="carousel slide" "bomlaptop" data-ride="carousel" data-interval="5000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./public/bomcar1.png" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Birmingham Open Media</h5>
+            <p class="project-description">Logo, brand and identity design for Art and Science collaborative space in Birmingham.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/bomcar2.png" alt="Second slide">
         </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./public/bomcar2.png" alt="Second slide">
-      </div>
-    </div>
-    <!-- <> -->
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <!-- <> -->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+    </div>
   </div>
-</div>
   <!-- imagery mobile -->
-<div class="bommobile">
-  <div class="container-fluid" style="clear:both">
-    <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <div class="thumbnail-container">
-          <img class="thumbnail img-responsive" src="./public/bom1.png" alt="bom portflio">
+  <div class="bommobile">
+    <div class="container-fluid" style="clear:both">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/bom1.png" alt="bom portflio">
+          </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="thumbnail-container">
-          <img class="thumbnail img-responsive" src="./public/bomdescription.png"  alt="bom portflio">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/bomdescription.png" alt="bom portflio">
+          </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="thumbnail-container">
-          <img class="thumbnail img-responsive" src="./public/bom2.png"  alt="bom portflio">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/bom2.png" alt="bom portflio">
+          </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="thumbnail-container">
-          <img class="thumbnail img-responsive" src="./public/bom3.png"  alt="bom portflio">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/bom3.png" alt="bom portflio">
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
   <footer>
     <div class="foot">
       <a id="email" href="mailto:jodihunt@hotmail.co.uk">email: jodihunt@hotmail.co.uk</a>
