@@ -12,12 +12,30 @@
   <style>
     /* laptop/desktop media query */
 
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 901px) {
       .bommobile {
         display: none;
       }
       .bomlaptop {
         visibility: visible;
+      }
+      .bomtablet {
+        display: none
+      }
+    }
+
+    /* ipad/tablet media query */
+
+    @media only screen and (max-width: 900px) (min-width:600px) {
+      .bomtablet {
+        visibility: visible;
+      }
+      .bommobile {
+        display: none;
+      }
+
+      .bomlaptop {
+        display: none
       }
     }
 
@@ -25,6 +43,9 @@
 
     @media only screen and (max-width: 599px) {
       .bomlaptop {
+        display: none
+      }
+      .bomtablet {
         display: none
       }
       .bommobile {
@@ -92,6 +113,33 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+    </div>
+  </div>
+  <!-- imagery ipad/tablet -->
+  <div class="bomtablet">
+    <div class="container-fluid" style="clear:both">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/bom1.png" alt="bom portflio">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/bomtabletdescription.png" alt="bom portflio">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/bom2.png" alt="bom portflio">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/bom3.png" alt="bom portflio">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- imagery mobile -->
