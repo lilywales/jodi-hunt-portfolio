@@ -227,3 +227,7 @@ h5 {
 	font-weight: bold;
 	float: left;
 }
+
+.col-md-6 {
+	padding: 0;
+}
