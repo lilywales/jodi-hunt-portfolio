@@ -10,7 +10,19 @@
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <title>Moodie</title>
   <style>
-    @media only screen and (max-width: 500px) {
+    /* laptop/desktop media query */
+
+    @media only screen and (min-width: 600px) {
+      .moodiemobile {
+        display: none;
+      }
+      .moodielaptop {
+        visibility: visible;
+      }
+    }
+
+    /* mobile media query */
+    @media only screen and (max-width: 599px) {
       .moodielaptop {
         display: none
       }
@@ -33,7 +45,7 @@
 
 <body>
   <!-- nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">
       <img src="./public/jLogo.png" width="45" height="45" alt="Jodi Hunt Logo">
     </a>
@@ -53,36 +65,36 @@
   </nav>
   <!-- imagery  -->
   <div class="moodielaptop">
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="./public/moodiecar1.png" alt="First slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Moodie</h5>
-          <p class="project-description">Design concept and execution for food education campaign.</p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./public/moodiecar1.png" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Moodie</h5>
+            <p class="project-description">Design concept and execution for food education campaign.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/moodiecar2.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/moodie3car.png" alt="3 slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/moodiecar4.png" alt="4slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/moodiecar5.png" alt="4slide">
         </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./public/moodiecar2.png" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./public/moodie3car.png" alt="3 slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./public/moodiecar4.png" alt="4slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./public/moodiecar5.png" alt="4slide">
-      </div>
     </div>
-  </div>
     <!-- <> -->
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -93,49 +105,49 @@
     <span class="sr-only">Next</span>
   </a>
   </div>
-</div>
-<!-- imagery mobile -->
-<div class="moodiemobile">
-  <div class="container-fluid" style="clear:both">
-    <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <div class="thumbnail-container">
-          <img class="thumbnail img-responsive" src="./public/moodie1.png" alt="toyotachr portflio">
+  </div>
+  <!-- imagery mobile -->
+  <div class="moodiemobile">
+    <div class="container-fluid" style="clear:both">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/moodie1.png" alt="toyotachr portflio">
+          </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="thumbnail-container">
-          <img class="thumbnail img-responsive" src="./public/moodiedescription.png"  alt="toyotachr portflio">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/moodiedescription.png" alt="toyotachr portflio">
+          </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="thumbnail-container">
-          <img class="thumbnail img-responsive" src="./public/moodie2.png"  alt="toyotachr portflio">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/moodie2mobile.png" alt="toyotachr portflio">
+          </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="thumbnail-container">
-          <img class="thumbnail img-responsive" src="./public/moodie3.png"  alt="toyotachr portflio">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/moodie3mobile.png" alt="toyotachr portflio">
+          </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="thumbnail-container">
-          <img class="thumbnail img-responsive" src="./public/moodie4.png"  alt="toyotachr portflio">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/moodie4mobile.png" alt="toyotachr portflio">
+          </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="thumbnail-container">
-          <img class="thumbnail img-responsive" src="./public/moodie5.png"  alt="toyotachr portflio">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/moodie5.png" alt="toyotachr portflio">
+          </div>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="thumbnail-container">
-          <img class="thumbnail img-responsive" src="./public/moodie6.png"  alt="toyotachr portflio">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail-container">
+            <img class="thumbnail img-responsive" src="./public/moodie6.png" alt="toyotachr portflio">
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
   <footer>
     <div class="foot">
       <a id="email" href="mailto:jodihunt@hotmail.co.uk">email: jodihunt@hotmail.co.uk</a>
@@ -145,4 +157,4 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+</body>

@@ -10,11 +10,23 @@
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <title>123 Little Pigs</title>
   <style>
+  /* laptop/desktop media query */
+
+  @media only screen and (min-width: 600px) {
+    .littlepigsmobile {
+      display: none;
+    }
+    .littlepigslaptop {
+      visibility: visible;
+    }
+  }
+
+  /* mobile media query */
     @media only screen and (max-width: 500px) {
-      .123littlepigsmobile {
+      .littlepigsmobile {
         display: none
       }
-      .123littlepigsmobile {
+      .littlepigsmobile {
         visibility: visible
       }
       #email {
@@ -52,7 +64,7 @@
     </div>
   </nav>
   <!-- imagery laptop -->
-  <div class="123littlepigslaptop">
+  <div class="littlepigslaptop">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -86,7 +98,7 @@
   </div>
 </div>
 <!-- imagery mobile -->
-<div class="123littlepigsmobile">
+<div class="littlepigsmobile">
   <div class="container-fluid" style="clear:both">
     <div class="row">
       <div class="col-md-4 col-sm-6">
