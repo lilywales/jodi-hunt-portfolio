@@ -43,6 +43,14 @@
 	padding: 0;
 }
 
+.col-xl-12 {
+	padding: 0;
+}
+
+.col-md-12 {
+	padding: 0;
+}
+
 #navigation {
 	display: inline;
 	height: 10vh;
