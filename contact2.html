@@ -11,7 +11,7 @@
 
 </head>
 
-<body>
+<body style="background-color: black">
   <!-- nav bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">
@@ -32,40 +32,37 @@
     </div>
   </nav>
   <!-- contact section -->
-  <div class="container-fluid">
-    <form action="mailto:jodihunt@hotmail.co.uk" method="post" enctype="text/plain">
-        <div class="form-group row">
-          <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Full Name">
-          </div>
-        </div>
-        <div class="form-group row">
-          <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" id="colFormLabel" placeholder="Email">
-          </div>
-        </div>
-        <div class="form-group row">
-          <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Subject">
-          </div>
-        </div>
-        <div class="form-group row">
-          <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Message">
-          </div>
-        </div>
+  <div class="contact-area container-fluid">
+    <div class="form">
+      <form action="mailto:jodihunt@hotmail.co.uk" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Full Name" size="50"><br>
+        <input type="email" name="email" placeholder="Email" size="50"><br>
+        <input type="text" name="subject" placeholder="Subject" size="50"><br>
+        <input type="text" name="comment" size="50" placeholder="Message"><br><br>
+        <input class="button" type="submit" value="Send">
+        <input class="button" type="reset" value="Reset">
       </form>
-  </div>
-  <!-- footer -->
-  <footer>
-    <div class="foot">
-      <a id="email" href="mailto:jodihunt@hotmail.co.uk">email: jodihunt@hotmail.co.uk</a>
     </div>
-  </footer>
+    <div class="directions">
+
+
+    <div class="form-details">
+      <p>
+        Jodi Hunt
+      </p>
+      <p>
+        Bristol based Graphic Designer
+      </p>
+      <p>
+        Get in touch: jodihunt@hotmail.com
+      </p>
+      <p>
+        or fill in the contact form
+      </p>
+      </div>
+    </div>
+  </div>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
