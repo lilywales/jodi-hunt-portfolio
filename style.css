@@ -1,19 +1,8 @@
-.thumbnail-container {
-	max-width: 100%;
-	max-height: 100%;
-	padding: 0;
-}
-
-* {
-	box-sizing: border-box;
-}
-
 .thumbnail {
 	max-width: 100%;
 	max-height: 100%;
 	padding: 0;
 	opacity: 1;
-	transition: 0.5s ease;
 }
 
 .overlay {
@@ -37,6 +26,10 @@
 	transform: translateY(-50%);
 	color: white;
 	font-size: 20px;
+}
+
+.row {
+	margin: 0;
 }
 
 .col-md-4 {
@@ -104,7 +97,6 @@
 	border-color: rgba(251, 252, 252, 0);
 }
 
-/*hover colour not working*/
 #menu:hover {
 	color: #f07f0a;
 }
@@ -123,7 +115,6 @@
 footer {
 	margin: 0;
 	padding: 0;
-	width: 100vw;
 }
 
 .foot {
@@ -138,7 +129,7 @@ footer {
 	font-family: "Poppins", sans-serif;
 	font-size: 1.2rem;
 	padding-top: 1.6%;
-	padding-right: 2%;
+	padding-right: 1.5%;
 	float: right;
 	text-decoration: none;
 }
@@ -211,7 +202,6 @@ h5 {
 	color: white;
 	font-family: "Poppins", sans-serif;
 	font-size: 1.2rem;
-	/* padding-top: 24%; */
 	font-weight: bold;
 	float: left;
 }
@@ -240,6 +230,45 @@ h5 {
 	padding: 0;
 }
 
-.form-control {
-	background-color: black;
+form {
+	position: absolute;
+	left: 50%;
+}
+
+.contact-area {
+	height: 300px;
+	width: 700px;
+	position: relative;
+	padding-top: 156px;
+}
+
+.form input {
+	color: #ffffff;
+	font-family: "Poppins", sans-serif;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #ffffff;
+	padding-top: 22px;
+}
+
+::placeholder {
+	color: white;
+}
+
+.form-details p {
+	color: white;
+	text-align: right;
+	font-size: 1.3rem;
+}
+
+.button {
+	border: none;
+}
+
+.directions {
+	position: absolute;
+	height: 300px;
+	width: 400px;
+	left: -85px;
+	top: 176px;
 }
