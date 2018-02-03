@@ -87,6 +87,7 @@
 	font-family: "Poppins", sans-serif;
 	font-weight: bold;
 	text-decoration: none;
+	text-align: right;
 }
 
 .navbar-brand {
@@ -230,12 +231,13 @@ h5 {
 	padding: 0;
 }
 
-form {
+.large-form {
+	background-color: black;
 	position: absolute;
 	left: 50%;
 }
 
-.contact-area {
+.contact-area1 {
 	height: 300px;
 	width: 700px;
 	position: relative;
@@ -271,4 +273,39 @@ form {
 	width: 400px;
 	left: -85px;
 	top: 176px;
+}
+
+.mobile-form {
+	position: absolute;
+	left: 18%;
+	top: 82%;
+}
+
+.contact-area2 {
+	height: 300px;
+	position: relative;
+}
+
+.directions2 {
+	position: absolute;
+	height: 300px;
+	width: 400px;
+	left: -34%;
+	top: 15%;
+}
+
+.form2-details p {
+	color: white;
+	text-align: right;
+	font-size: 0.85rem;
+}
+
+.mobile-form input {
+	color: #ffffff;
+	font-family: "Poppins", sans-serif;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #ffffff;
+	padding-top: 22px;
+	font-size: 0.8rem;
 }
