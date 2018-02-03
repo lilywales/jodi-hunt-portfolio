@@ -5,36 +5,116 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <title>Contact</title>
+  <title>Get in Touch</title>
+  <style>
+    /* laptop/desktop media query */
+    @media only screen and (min-width: 901px) {
+
+      .form-mobile {
+        display: none;
+      }
+      .form-laptop {
+        visibility: visible;
+      }
+    }
+    /* mobile media query */
+    @media only screen and (max-width: 900px) {
+
+      .form-laptop {
+        display: none
+      }
+      .form-mobile {
+        visibility: visible
+      }
+    }
+  </style>
 </head>
 
-<body>
-
-
-  <!-- header -->
-  <div style="height: 10vh">
-    <nav id="navigation" style="height:100%">
-      <div class="logo" style="height: 90%">
-        <img class="logo-image" src="./public/logo.png" style="height:100%">
+<body style="background-color: black">
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+    <img src="./public/jLogo.png" width="45" height="45" alt="Jodi Hunt Logo">
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html" id="menu">PORTFOLIO <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html" id="menu">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- contact section -->
+  <!-- desktop/laptop view -->
+  <div class="contact-area1 container-fluid form-laptop">
+    <div class="form">
+      <form class="large-form" action="mailto:jodihunt@hotmail.co.uk" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Full Name" size="50"><br>
+        <input type="email" name="email" placeholder="Email" size="50"><br>
+        <input type="text" name="subject" placeholder="Subject" size="50"><br>
+        <input type="text" name="comment" size="50" placeholder="Message"><br><br>
+        <input class="button" type="submit" value="Send">
+        <input class="button" type="reset" value="Reset">
+      </form>
+    </div>
+    <div class="directions">
+    <div class="form-details">
+      <p>
+        Jodi Hunt
+      </p>
+      <p>
+        Bristol based Graphic Designer
+      </p>
+      <p>
+        Get in touch: jodihunt@hotmail.com
+      </p>
+      <p>
+        or fill in the contact form
+      </p>
       </div>
-      <div class="menu">
-        <ul class="menu-list heading">
-          <li><a href="./index.html" id="menu">PORTFOLIO</a></li>
-
-          <li><a href="./contact.html" id="menu">CONTACT</a></li>
-        </ul>
+    </div>
+  </div>
+  <!-- mobile view -->
+  <div class="contact-area2 container-fluid form-mobile">
+    <div class="form">
+      <form class="mobile-form" action="mailto:jodihunt@hotmail.co.uk" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Full Name" size="37"><br>
+        <input type="email" name="email" placeholder="Email" size="37"><br>
+        <input type="text" name="subject" placeholder="Subject" size="37"><br>
+        <input type="text" name="comment" size="37" placeholder="Message"><br><br>
+        <input class="button" type="submit" value="Send">
+        <input class="button" type="reset" value="Reset">
+      </form>
+    </div>
+    <div class="directions2">
+    <div class="form2-details">
+      <p>
+        Jodi Hunt
+      </p>
+      <p>
+        Bristol based Graphic Designer
+      </p>
+      <p>
+        Get in touch: jodihunt@hotmail.com
+      </p>
+      <p>
+        or fill in the contact form
+      </p>
       </div>
-    </nav>
-  </div>
-  <!-- imagery  -->
-  <div class="contactbox">
-      <a class="details"> JODI HUNT || BRISTOL, UK </a>
-      <a class="email" href="mailto:jodihunt@hotmail.co.uk">email: jodihunt@hotmail.co.uk</a>
+    </div>
   </div>
 
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
+
+</html>
