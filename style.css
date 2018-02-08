@@ -85,9 +85,10 @@
 .nav-link {
 	color: black;
 	font-family: "Poppins", sans-serif;
-	font-weight: bold;
+	font-weight: 600;
 	text-decoration: none;
 	text-align: right;
+	-webkit-font-smoothing: antialiased;
 }
 
 .navbar-brand {
@@ -253,6 +254,13 @@ h5 {
 	padding-top: 22px;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
 ::placeholder {
 	color: white;
 }
@@ -278,7 +286,7 @@ h5 {
 .mobile-form {
 	position: absolute;
 	left: 18%;
-	top: 82%;
+	top: 71%;
 }
 
 .contact-area2 {
@@ -315,6 +323,26 @@ h5 {
 
 .form .button:hover {
 	color: #f07f0a;
+}
+
+.form .m-send {
+	position: absolute;
+	left: -3%;
+}
+
+.form .m-reset {
+	position: absolute;
+	left: 18%;
+}
+
+.form .l-send {
+	position: absolute;
+	left: -2%;
+}
+
+.form .l-reset {
+	position: absolute;
+	left: 13%;
 }
 
 span {
