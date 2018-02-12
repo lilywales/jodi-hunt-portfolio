@@ -239,10 +239,11 @@ h5 {
 }
 
 .contact-area1 {
-	height: 300px;
-	width: 700px;
+	height: 500px;
+	width: 900px;
 	position: relative;
 	padding-top: 156px;
+	overflow: hidden;
 }
 
 .form input {
@@ -279,19 +280,21 @@ button:focus {
 	position: absolute;
 	height: 300px;
 	width: 400px;
-	left: -85px;
+	left: 25px;
 	top: 176px;
 }
 
 .mobile-form {
 	position: absolute;
 	left: 18%;
-	top: 71%;
+	top: 43%;
 }
 
 .contact-area2 {
-	height: 300px;
+	height: 600px;
+	width: 282px;
 	position: relative;
+	overflow-x: hidden;
 }
 
 .directions2 {
