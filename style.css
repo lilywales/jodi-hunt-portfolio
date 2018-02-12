@@ -260,6 +260,7 @@ select:focus,
 textarea:focus,
 button:focus {
 	outline: none;
+	-webkit-appearance: none;
 }
 
 ::placeholder {
@@ -330,7 +331,7 @@ button:focus {
 
 .form .m-send {
 	position: absolute;
-	left: -3%;
+	left: -2%;
 }
 
 .form .m-reset {
