@@ -260,6 +260,7 @@ select:focus,
 textarea:focus,
 button:focus {
 	outline: none;
+	-webkit-appearance: none;
 }
 
 ::placeholder {
