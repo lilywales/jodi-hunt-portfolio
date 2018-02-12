@@ -330,24 +330,24 @@ button:focus {
 }
 
 .form .m-send {
-	position: absolute;
-	left: -2%;
+	/* position: absolute; */
+	/* left: -2%; */
 }
 
 .form .m-reset {
-	position: absolute;
-	left: 18%;
+	/* position: absolute; */
+	/* left: 18%; */
 }
 
-.form .l-send {
-	position: absolute;
-	left: -2%;
-}
+/* .form .l-send {
+	position: absolute; */
+/* left: -2%; */
+/* } */
 
-.form .l-reset {
-	position: absolute;
-	left: 13%;
-}
+/* .form .l-reset {
+	position: absolute; */
+/* left: 13%; */
+/* } */
 
 span {
 	color: #f07f0a;
