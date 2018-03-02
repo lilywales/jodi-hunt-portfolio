@@ -122,18 +122,19 @@ footer {
 .foot {
 	background: black;
 	height: 68px;
-	margin: 0;
-	padding: 0;
 }
 
 #email {
 	color: white;
 	font-family: "Poppins", sans-serif;
 	font-size: 1rem;
-	padding-top: 1.6%;
-	padding-right: 1.5%;
+	padding-top: 22px;
+	padding-right: 18px;
 	float: right;
 	text-decoration: none;
+}
+
+.e {
 }
 
 .details {
@@ -145,16 +146,6 @@ footer {
 	padding-right: 3%;
 	text-decoration: none;
 }
-/* 
-.email {
-	color: white;
-	font-family: "Poppins", sans-serif;
-	font-size: 1.5rem;
-	padding-top: 24%;
-	float: right;
-	padding-right: 4%;
-	text-decoration: none;
-} */
 
 .pigtitle {
 	color: white;
@@ -231,6 +222,8 @@ h5 {
 .col-md-6 {
 	padding: 0;
 }
+
+/* contact form */
 
 .large-form {
 	background-color: black;
@@ -343,11 +336,6 @@ button:focus {
 	position: relative;
 	left: -1%;
 }
-
-/* .form .l-reset {
-	position: absolute; */
-/* left: 13%; */
-/* } */
 
 span {
 	color: #f07f0a;
