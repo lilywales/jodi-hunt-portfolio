@@ -312,6 +312,7 @@ button:focus {
 	border-bottom: 1px solid #ffffff;
 	padding-top: 22px;
 	font-size: 0.8rem;
+	border-radius: 0;
 }
 
 .form .button {
