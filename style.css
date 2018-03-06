@@ -245,8 +245,9 @@ h5 {
 	background: transparent;
 	border: none;
 	border-bottom: 1px solid #ffffff;
-	border-radius: 0;
 	padding-top: 22px;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;
 }
 
 input:focus,
@@ -314,7 +315,7 @@ button:focus {
 	border-bottom: 1px solid #ffffff;
 	padding-top: 22px;
 	font-size: 0.8rem;
-	border-radius: 0;
+	-webkit-border-radius: 0px;
 }
 
 .form .button {
