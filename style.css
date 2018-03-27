@@ -225,6 +225,21 @@ h5 {
 
 /* contact form */
 
+.contact-wrapper-desktop {
+	position: relative;
+	background-color: black;
+	height: 91vh;
+	overflow: hidden;
+	text-align: center;
+}
+.contact-wrapper-desktop {
+	position: relative;
+	background-color: black;
+	height: 91vh;
+	overflow: hidden;
+	text-align: center;
+}
+
 .large-form {
 	background-color: black;
 	position: absolute;
@@ -281,6 +296,14 @@ button:focus {
 	top: 176px;
 }
 
+.contact-wrapper-mobile {
+	position: relative;
+	background-color: black;
+	height: 91vh;
+	overflow: hidden;
+	text-align: center;
+}
+
 .mobile-form {
 	position: absolute;
 	left: 18%;
@@ -289,7 +312,6 @@ button:focus {
 
 .contact-area2 {
 	height: 600px;
-	width: 282px;
 	position: relative;
 	overflow-x: hidden;
 }
