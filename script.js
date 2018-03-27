@@ -2,7 +2,7 @@
 var page;
 
 function logoSpin() {
-	page = setTimeout(showPage, 500);
+	page = setTimeout(showPage, 300);
 }
 
 function showPage() {
