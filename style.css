@@ -84,7 +84,7 @@
 
 .nav-link {
 	color: black;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
 	text-decoration: none;
 	text-align: right;
@@ -126,7 +126,7 @@ footer {
 
 #email {
 	color: white;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 1rem;
 	padding-top: 22px;
 	padding-right: 18px;
@@ -139,7 +139,7 @@ footer {
 
 .details {
 	color: white;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 1.5rem;
 	padding-top: 18%;
 	float: right;
@@ -149,7 +149,7 @@ footer {
 
 .pigtitle {
 	color: white;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 2rem;
 	padding-top: 24%;
 	font-weight: bold;
@@ -193,7 +193,7 @@ footer {
 
 h5 {
 	color: white;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 1.2rem;
 	font-weight: bold;
 	float: left;
@@ -209,7 +209,7 @@ h5 {
 
 .project-description {
 	color: black;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 1rem;
 	padding-top: 1%;
 	padding-bottom: 47%;
@@ -241,7 +241,7 @@ h5 {
 
 .form input {
 	color: #ffffff;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	background: transparent;
 	border: none;
 	border-bottom: 1px solid #ffffff;
@@ -310,7 +310,7 @@ button:focus {
 
 .mobile-form input {
 	color: #ffffff;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	background: transparent;
 	border-bottom: 1px solid #ffffff;
 	padding-top: 22px;
@@ -343,4 +343,73 @@ button:focus {
 
 span {
 	color: #f07f0a;
+}
+
+/* Center the loader */
+#loader {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	width: 120px;
+	height: 120px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s;
+}
+
+@-webkit-keyframes animatebottom {
+	from {
+		bottom: -100px;
+		opacity: 0;
+	}
+	to {
+		bottom: 0px;
+		opacity: 1;
+	}
+}
+
+@keyframes animatebottom {
+	from {
+		bottom: -100px;
+		opacity: 0;
+	}
+	to {
+		bottom: 0;
+		opacity: 1;
+	}
+}
+
+#webPage {
+	display: none;
+	text-align: center;
 }
