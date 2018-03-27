@@ -299,19 +299,21 @@ button:focus {
 .contact-wrapper-mobile {
 	position: relative;
 	background-color: black;
-	height: 91vh;
 	overflow: hidden;
 	text-align: center;
 }
 
 .mobile-form {
 	position: absolute;
+	width: 240px;
+	overflow: hidden;
 	left: 18%;
 	top: 43%;
 }
 
 .contact-area2 {
-	height: 600px;
+	height: 93vh;
+	/* width: 150px; */
 	position: relative;
 	overflow-x: hidden;
 }
@@ -360,7 +362,11 @@ button:focus {
 
 .form .l-send {
 	position: relative;
-	left: -1%;
+	left: -38%;
+}
+.form .l-reset {
+	position: relative;
+	left: -38%;
 }
 
 span {
@@ -373,11 +379,10 @@ span {
 	left: 50%;
 	top: 50%;
 	z-index: 1;
-	width: 150px;
-	height: 150px;
+	width: 75px;
+	height: 75px;
 	margin: -75px 0 0 -75px;
-	width: 120px;
-	height: 120px;
+
 	-webkit-animation: spin 2s linear infinite;
 	animation: spin 2s linear infinite;
 }
