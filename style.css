@@ -229,15 +229,6 @@ h5 {
 	position: relative;
 	background-color: black;
 	height: 91vh;
-	overflow: hidden;
-	text-align: center;
-}
-.contact-wrapper-desktop {
-	position: relative;
-	background-color: black;
-	height: 91vh;
-	overflow: hidden;
-	text-align: center;
 }
 
 .large-form {
@@ -306,6 +297,7 @@ button:focus {
 .mobile-form {
 	position: absolute;
 	width: 240px;
+	height: 240px;
 	overflow: hidden;
 	left: 18%;
 	top: 43%;
@@ -362,11 +354,10 @@ button:focus {
 
 .form .l-send {
 	position: relative;
-	left: -38%;
+	left: -2%;
 }
 .form .l-reset {
 	position: relative;
-	left: -38%;
 }
 
 span {
