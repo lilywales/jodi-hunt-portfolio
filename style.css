@@ -355,6 +355,7 @@ button:focus {
 
 .form .l-send {
 	position: relative;
+	left: -1%;
 }
 
 .form .l-reset {
