@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://suspicious-bardeen-7bf8be.netlify.com/* http://www.jodihunt.com/:splat 301!
