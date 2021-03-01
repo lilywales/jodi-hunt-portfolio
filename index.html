@@ -18,14 +18,17 @@
           float: right;
           padding-left: 0;
         }
+        h5 {
+          font-size: 0.9rem;
+        }
       }
       </style>
   </head>
   <body onload="logoSpin()">
     <img id="loader" src="./public/jLogo.png"/>
       <div style="display:none;" id="webPage" class="animate-bottom">
-        <!-- nav bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- DROP DOWN nav bar -->
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="index.html">
             <img src="./public/jLogo.png" width="45" height="45" alt="Jodi Hunt Logo">
           </a>
@@ -42,26 +45,86 @@
               </li>
             </ul>
           </div>
-        </nav>
+        </nav> -->
+        <div class="white_logo">
+          <a href="index.html">
+            <img src="./public/jLogo_white.png"  height="45" alt="Jodi Hunt Logo">
+          </a>
+        </div>
+        <div class="buttons" >
+          <a href="contact.html"><h5>CONTACT</h5></a>
+        </div>
         <!-- imagery  -->
         <div class="container-fluid" style="clear:both">
           <div class="row">
             <div class="col-md-4 col-sm-6">
               <div class="thumbnail-container">
-                <a href="123littlepigs.html">
-                  <img class="thumbnail img-responsive" src="./public/123littlepigs1.png" alt="123 Little Pigs portflio" href="./123littlepigs.html">
+                <a href="internalcard.html">
+                  <img class="thumbnail img-responsive" src="./public/mobile1_internal_card_hb.jpg" alt="123 Little Pigs portflio" href="./123littlepigs.html">
                   <div class="overlay">
-                    <p>Three Little Pigs</p>
+                    <p>Turtle Bay Internal Card</p>
                   </div>
                 </div>
               </div>
             </a>
             <div class="col-md-4 col-sm-6">
               <div class="thumbnail-container">
-                <a href="super11.html">
-                  <img class="thumbnail img-responsive" src="./public/super11web5.jpg"  href="./super11.html" alt="Super 11 portflio" >
+                <a href="lastnightsdream.html">
+                  <img class="thumbnail img-responsive" src="./public/landinglnd.jpg"  href="./lastnightsdream.html" alt="" >
                   <div class="overlay">
-                    <p>Super 11</p>
+                    <p>Last Nights Dream</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-container">
+                <a href="./menu.html">
+                  <img class="thumbnail img-responsive" src="./public/menu_home.jpg"  href="./menu.html" alt="" >
+                  <div class="overlay">
+                    <p>Turtle Bay Menu</p>
+                  </div>
+                </div>
+              </div>
+            </a>  
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-container">
+                <a href="toyotalcvelearning.html">
+                  <img class="thumbnail img-responsive" src="./public/toyotalcvelearning3.png" alt="" href="./toyotalcvelearning.html">
+                  <div class="overlay">
+                    <p>Toyota LCV eLearning</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-container">
+                <a href="bom.html">
+                  <img class="thumbnail img-responsive" src="./public/bom_home.jpg" alt="" href="./bom.html">
+                  <div class="overlay">
+                    <p>Birmingham Open Media</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-container">
+                <a href="silverfish.html">
+                  <img class="thumbnail img-responsive" src="./public/sfmob1.JPG" alt="car portflio" href="./silverfish.html">
+                  <div class="overlay">
+                    <p>Silverfish</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+
+              <!-- <div class="thumbnail-container">
+                <a href="moodie.html">
+                  <img class="thumbnail img-responsive" src="./public/moodie6.png" alt="Moodie portflio" href="./moodie.html">
+                  <div class="overlay">
+                    <p>Moodie</p>
                   </div>
                 </div>
               </div>
@@ -76,43 +139,9 @@
                 </div>
               </div>
             </a>
-            <div class="col-md-4 col-sm-6">
-              <div class="thumbnail-container">
-                <a href="moodie.html">
-                  <img class="thumbnail img-responsive" src="./public/moodie6.png" alt="Moodie portflio" href="./moodie.html">
-                  <div class="overlay">
-                    <p>Moodie</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <div class="col-md-4 col-sm-6">
-              <div class="thumbnail-container">
-                <a href="toyotalcvelearning.html">
-                  <img class="thumbnail img-responsive" src="./public/toyotalcvelearning3.png" alt="car portflio" href="./toyotalcvelearning.html">
-                  <div class="overlay">
-                    <p>Toyota LCV eLearning</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <div class="col-md-4 col-sm-6">
-              <div class="thumbnail-container">
-                <a href="bom.html">
-                  <img class="thumbnail img-responsive" src="./public/bom2.png" alt="BOM portflio" href="./bom.html">
-                  <div class="overlay">
-                    <p>Birmingham Open Media</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </a>
-        <footer>
-          <div class="foot">
-            <a id="email" href="mailto:jodihunt@hotmail.co.uk">email: jodihunt@hotmail.co.uk</a>
-          </div>
-        </footer>
+              -->
+            
+  
       </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
