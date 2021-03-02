@@ -176,6 +176,7 @@ h5:hover {
 	padding-top: 24%;
 	font-weight: bold;
 	float: left;
+	
 }
 
 .overlay {
@@ -217,7 +218,7 @@ h5 {
 	color: white;
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.2rem;
-	font-weight: bold;
+	font-weight: 600;
 	float: left;
 }
 
@@ -472,7 +473,7 @@ span {
 	color: rgb(255, 229, 79);
 }
 
-.title-super {
+.title-menu {
 	position: absolute;
 	top: 15%;
 	left: 5%;
@@ -485,7 +486,9 @@ span {
 .title-pigs {
 	position: absolute;
 	top: 16%;
-	left: 9%;
+	left: 6%;
+	height: 30%;
+	width: 22%;
 }
 
 #project-title-mood {
@@ -510,4 +513,36 @@ span {
 	position: absolute;
 	top: 15%;
 	left: 9%;
+}
+
+.project-box{
+	
+	height: 120px;
+}
+
+.tbc{
+
+	background-color: #eb6705;
+}
+
+.lnd {
+	background-color: #00d2d1;
+}
+
+.m-sf {
+	background-color: black;
+}
+
+.contact-container {
+	position: relative;
+	background-color: black;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+}
+
+.deets {
+	position: relative;
+	top: 45%;
+	color: white;
 }
