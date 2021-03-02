@@ -250,7 +250,11 @@ h5 {
 /*  */
 
 
-span {
+/* span {
+	color: #f07f0a;
+} */
+
+#orange {
 	color: #f07f0a;
 }
 
@@ -340,19 +344,18 @@ span {
 	color: white;
 }
 
-#project-title-11 {
-	color: rgb(255, 229, 79);
-}
+
 
 .title-menu {
 	position: absolute;
 	top: 15%;
 	left: 5%;
 	color: white;
-}
-#super {
+} 
+
+/* #super {
 	color: white;
-}
+} */
 
 .title-pigs {
 	position: absolute;
@@ -416,4 +419,17 @@ span {
 	position: relative;
 	top: 45%;
 	color: white;
+}
+
+#yellow {
+	color: rgb(255, 229, 79);
+}
+
+
+#project-title-11 {
+	color: rgb(255, 229, 79);
+}
+
+span {
+	color: #df429b
 }
