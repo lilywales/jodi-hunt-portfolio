@@ -413,13 +413,15 @@ h5 {
 	background-color: black;
 	height: 100vh;
 	width: 100vw;
-	text-align: center;
+	
 }
 
 .deets {
 	position: relative;
 	top: 45%;
+	left: -50%;
 	color: white;
+	text-align: right;
 }
 
 #yellow {
@@ -433,4 +435,11 @@ h5 {
 
 span {
 	color: #df429b
+}
+
+.me {
+	position: relative;
+	left: 55%;
+    top: 26%;
+	height: 150px;
 }
