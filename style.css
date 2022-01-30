@@ -442,7 +442,7 @@ span {
 .me {
 	position: relative;
 	height: 155px;
-	margin-left: 50px;
+	top: -200%;
 }
 
 .text {
