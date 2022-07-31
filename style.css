@@ -136,11 +136,6 @@ h5:hover {
 }
 
 
-/* footer {
-	margin: 0;
-	padding: 0;
-} */
-
 .foot {
 	background: black;
 	height: 68px;
@@ -156,8 +151,7 @@ h5:hover {
 	text-decoration: none;
 }
 
-.e {
-}
+
 
 .details {
 	color: white;
@@ -246,13 +240,7 @@ h5 {
 	padding: 0;
 }
 
-/* contact form */
-/*  */
 
-
-/* span {
-	color: #f07f0a;
-} */
 
 #orange {
 	color: #f07f0a;
@@ -338,6 +326,7 @@ h5 {
 	font-size: 1.5rem;
 	text-align: right;
 	font-family: 'Poppins', sans-serif;
+	padding-left:15px;
 }
 
 #project-title {
@@ -353,9 +342,6 @@ h5 {
 	color: white;
 } 
 
-/* #super {
-	color: white;
-} */
 
 .title-pigs {
 	position: absolute;
@@ -389,10 +375,38 @@ h5 {
 	left: 9%;
 }
 
+/* .project-title-poor {
+	position: absolute;
+	top: 16%;
+	left: 6%;
+	color: white;
+} */
+
+.title-menu-poor {
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	color: white;
+} 
+
 .project-box{
 	
 	height: 120px;
 }
+
+.project-box-pm{
+	
+	height: 320px;
+}
+#title-text-pm {
+	padding-top: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: white;
+	font-weight: bold;
+	
+	
+  }
 
 .tbc{
 
@@ -451,3 +465,22 @@ span {
 	width: 400px;
 	text-align: right;
 }
+
+.project-box-mfd{
+	padding-left: 15px;
+	height: 190px;
+}
+
+a:link {
+	color: rgb(255, 229, 79);
+	
+	text-decoration: none;
+  }
+
+  a:visited {
+	color: rgb(255, 229, 79);
+	
+	text-decoration: none;
+
+  }
+
