@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Poor Man's Friend</title>
+    <style>
+    /* laptop/desktop media query */
+    @media only screen and (min-width: 591px) {
+      .super11mobile {
+        display: none;
+      }
+      .super11laptop {
+        visibility: visible;
+      }
+    }
+    @media only screen and (max-width: 900px){
+      #title-text {
+        	font-size: 0.8rem;
+      }
+    }
+    /* mobile media query */
+      @media only screen and (max-width: 590px) {
+        .super11laptop {
+          display: none
+        }
+        .super11mobile {
+          visibility: visible
+        }
+        #email {
+          font-size: 0.9rem;
+        }
+        .navbar-nav .nav-link {
+          padding-right: 0px;
+          float: right;
+          padding-left: 0;
+        }
+        h5 {
+          font-size: 0.9rem;
+        }
+        #title-text {
+          padding-top: 30px;
+          padding-right: 15px;
+          color: white;
+          font-weight: bold;
+        }
+      }
+    </style>
+  </head>
+  <body onload="logoSpin()">
+    <img id="loader" src="./public/jLogo.png"/>
+    <div style="display:none;" id="webPage" class="animate-bottom">
+      <!-- nav bar -->
+      <div class="white_logo">
+        <a href="index.html">
+          <img src="./public/jLogo_white.png"  height="45" alt="Jodi Hunt Logo">
+        </a>
+      </div>
+      <div class="buttons" >
+        <a href="index.html"><h5>PORTFOLIO&nbsp;&nbsp;  </h5></a>
+        <a href="contact.html"><h5>CONTACT</h5></a>
+      </div>
+      <div class="super11laptop">
+        <div class="container-fluid" style="clear:both">
+          <div class="row">
+            <div class="col-xl-12 col-l-12">
+              <div class="thumbnail-container">
+                <img class="thumbnail img-responsive" src="./public/matbweb1.jpg" alt="">
+                  
+            </div>
+            <div class="col-xl-12 col-l-12">
+              <div class="thumbnail-container">
+                <img class="thumbnail img-responsive" src="./public/matbweb2.jpg" alt="Super 11 portfolio" >
+                <div class="title-menu">
+                    <h1 id="title-text">
+                      <!-- <span id="project-title2">Manny and the Baby</span><br/><br/> -->
+                      <!-- Cover design for a novel set across two <br/>timelines: 1930s London and 2012 Bath. It was crucial to represent the musicality<br/> that runs throughout the book, evoking the energy, rhythm, <br/>and movement of the underground jazz scene in 1930s London. Using a blend<br/> of collage and fluid typography inspired by the bold, expressive styles of that era, I aimed to capture the vibrancy that defines the narrative while showcasing the lively scenes depicted in the story. -->
+                </div>
+              </div>
+            </div>
+              
+            </div> 
+            <div class="col-xl-12 col-l-12">
+              <div class="thumbnail-container">
+                <img class="thumbnail img-responsive" src="./public/matbweb3.jpg" alt="Super 11 portfolio" >
+                
+              </div>
+            </div>
+              
+            </div> 
+            
+            <div class="col-xl-12 col-l-12">
+                <div class="thumbnail-container">
+                  <img class="thumbnail img-responsive" src="./public/matbweb4.jpg" alt="Super 11 portfolio" >
+                </div>
+              </div> 
+          </div>
+        </div> 
+      
+        </div>
+      </div>
+      <!-- imagery mobile  -->
+      <div class="container-fluid super11mobile" style="clear:both">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <div class="thumbnail-container">
+              <img class="thumbnail img-responsive" src="./public/matbmob1.jpg" alt="123 Little Pigs portflio" >
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12">
+            <div class="thumbnail-container">
+              <div class="project-box-pm lnd">
+                <h1 id="title-text">
+                  <span id="project-title-11">Manny and the Baby</span><br/><br/>
+                  Cover design for a novel set across two timelines: 1930s London and 2012 Bath. It was crucial to represent the musicality that runs throughout the book, evoking the energy, rhythm, and movement of the underground jazz scene in 1930s London. Using a blend of collage and fluid typography inspired by the bold, expressive styles of that era, I aimed to capture the vibrancy that defines the narrative while showcasing the lively scenes depicted in the story.
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12">
+            <div class="thumbnail-container">
+              <img class="thumbnail img-responsive" src="./public/matbmob2.jpg" alt="Super 11 portflio">
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12">
+            <div class="thumbnail-container">
+              <img class="thumbnail img-responsive" src="./public/matbmob3.jpg"  alt="Super 11 portflio">
+            </div>
+          <div class="col-md-12 col-sm-12">
+            <div class="thumbnail-container">
+                 <img class="thumbnail img-responsive" src="./public/matbmob4.jpg"  alt="Super 11 portflio">
+         </div>
+         <div class="col-md-12 col-sm-12">
+      
+          
+      <!-- <footer>
+        <div class="foot">
+          <a id="email" href="mailto:jodihunt@hotmail.co.uk">email: jodihunt@hotmail.co.uk</a>
+        </div>
+      </footer> -->
+    </div>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+  </body>
+</html>
+
